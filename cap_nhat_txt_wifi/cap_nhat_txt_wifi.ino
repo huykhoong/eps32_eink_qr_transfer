@@ -7,8 +7,8 @@
 #include <SPI.h>
 #include <QRCodeGFX.h>
 
-const char* ssid = "Huy va Nhi";
-const char* password = "matkhau123";
+const char* ssid = "Wifi123";
+const char* password = "123456";
 const String websiteUrl = "https://huykhong.com/IOT/hello.php";
 
 GxEPD2_3C<GxEPD2_420_Z98c, GxEPD2_420_Z98c::HEIGHT> display(
